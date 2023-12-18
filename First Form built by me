@@ -8,14 +8,14 @@
         body{
             background-color: red;
             text-align: center;
-            margin-top: 65px;
-            font-size: 30px;
+            margin-top: 40px;
+            font-size: 40px;
                 }
         table,td,tr,th{
             text-align: center;
             background-color: black;
             color:white;
-            margin-left: 470px;
+            margin-left: 40px;
             margin-top: 40px;
         }
         table{
