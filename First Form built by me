@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+            text-align: center;
+            margin-top: 65px;
+            font-size: 30px;
+                }
+        table,td,tr,th{
+            text-align: center;
+            background-color: black;
+            color:white;
+            margin-left: 470px;
+            margin-top: 40px;
+        }
+        table{
+            border: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td colspan="2">Registration form </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" value="1">Male<input type="radio" value="2">Female</td>
+        </tr>
+        <tr>
+            <td>Birthdate</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Bio</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Subscribe to newslatter</td>
+            <td><input type="radio"></td>
+        </tr>
+        <tr>
+            <td>Select a range</td>
+            <td><input type="range"></td>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>LocalTime</td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td>Choose file:</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td><img src="download.jfif"></td>
+        </tr>
+        <tr>
+            <td>Number</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Search</td>
+            <td><input type="search"></td>
+        </tr>
+        <tr>
+            <td>Pick Week</td>
+            <td><input type="week"></td>
+        </tr>
+        <tr>
+            <td>Pick Month</td>
+            <td><input type="month"></td>
+        </tr>
+        <tr>
+           <td>  <input type="submit"></td>
+           <td><input type="reset"></td>
+        </tr>
+    </table>
+</body>
+</html>
